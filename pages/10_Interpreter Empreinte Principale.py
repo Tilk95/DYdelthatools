@@ -103,18 +103,15 @@ if r_type=="TEXTE":
     _idx_cols = 1
     t = []
     for _idx in range(len(k_dico)):
-        match _idx_cols:
-            case 1:
-                t.append(_col1.toggle(k_dico[_idx]))
-                _idx_cols =2
-            case 2:
-                t.append(_col2.toggle(k_dico[_idx]))
-                _idx_cols = 3
-            case 3:
-                t.append(_col3.toggle(k_dico[_idx]))
-                _idx_cols = 1
-
-
+        if _idx_cols == 1:
+            t.append(_col1.toggle(k_dico[_idx]))
+            _idx_cols = 2
+        if _idx_cols == 2:
+            t.append(_col2.toggle(k_dico[_idx]))
+            _idx_cols = 3
+        if _idx_cols == 3:
+            t.append(_col3.toggle(k_dico[_idx]))
+            _idx_cols = 1
     _numerique = 0
 
     for _idx in range(len(t)):
