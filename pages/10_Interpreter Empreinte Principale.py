@@ -107,10 +107,10 @@ if r_type=="TEXTE":
         if _idx_cols == 1:
             t.append(_col1.toggle(k_dico[_idx],key=_key))
             _idx_cols = 2
-        if _idx_cols == 2:
+        elif _idx_cols == 2:
             t.append(_col2.toggle(k_dico[_idx],key=_key))
             _idx_cols = 3
-        if _idx_cols == 3:
+        elif _idx_cols == 3:
             t.append(_col3.toggle(k_dico[_idx],key=_key))
             _idx_cols = 1
     _numerique = 0
