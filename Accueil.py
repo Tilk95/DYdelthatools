@@ -10,5 +10,5 @@ st.write("# DELTHA TOOLS 👋")
 
 st.text(dyt.glb_menu_titre)
 
-st.write("Outil d'aide à la compréhension des concepts Deltha")
+st.write("Outil d'aide à la compréhension des concepts Deltha.")
 

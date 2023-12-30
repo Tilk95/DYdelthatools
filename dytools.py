@@ -375,7 +375,6 @@ def fct_lecture_regime_numerique():
                     _error = True
                 else:
                     _tab_regime[_idx] = (('00'*8+hex(_int_regime).lstrip('0x').upper())[-16:])
-                    _st_regime = _st_regime+(('00'*8+hex(_int_regime).lstrip('0x').upper())[-16:])
             if (_error): break
         
         if(not _error):
