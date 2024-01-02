@@ -223,7 +223,9 @@ def fct_hexa_to_bin(p_hexa):
     _st_bin=""
     for _i in range(0,len(p_hexa)):
         _st_bin = _st_bin + ('0000'+(bin(int(p_hexa[_i],16))[2:]))[-4:]
-            
+
+    _st_bin = _st_bin.lstrip("0")
+
     return _st_bin
 
 
@@ -253,10 +255,14 @@ def fct_affiche_regime(_p_dda,_p_regime):
     _regime = _p_regime
     _dda = datetime.strptime(_p_dda, "%Y-%m-%d")
 
-    
+
+
     _dc = _dda
     _str_bin = fct_hexa_to_bin(_regime)
     _taille_regime = len(_str_bin)
+
+
+
 
     #----------------------------------------------------------------------
     # On commence par le début du régime 
