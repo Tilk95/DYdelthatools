@@ -146,7 +146,7 @@ def fct_lire_numeriques():
         _c2 = '190DCB'
 
         st.write("#### Régime HEXA")
-        _joli_regime  =f'<span style="color:#{_c1}">{_st_regime[0:16]}</span>'
+        _joli_regime  =f'<span style="color:#{_c1}">{_st_regime[0:16].lstrip("0")}</span>'
         _joli_regime +=f'<span style="color:#{_c2}">{_st_regime[16:32]}</span>'
 
         _joli_regime +=f'<span style="color:#{_c1}">{_st_regime[32:48]}</span>'
@@ -202,7 +202,7 @@ def fct_affiche_regime(_p_dda, _p_regime):
     _ligne_calendrier = _mois_encours + _start_calendrier
 
     st.write("")
-    st.write("### AFFICHAGE CALENDRIER ")
+    st.write(f"### AFFICHAGE CALENDRIER {_str_bin.count('1')} jour(s) actif(s)")
 
     _ligne_out  = "       -----------------------------------------------------------------------------------------------------------------------------\n"
     _ligne_out += "       !01 !02 !03 !04 !05 !06 !07 !08 !09 !10 !11 !12 !13 !14 !15 !16 !17 !18 !19 !20 !21 !22 !23 !24 !25 !26 !27 !28 !29 !30 !31 !\n"
