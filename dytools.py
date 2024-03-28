@@ -58,7 +58,7 @@ dico_empreinte_principale = {
     19 : "K_SIGNE_CONV",
     20 : "K_FH",
     21 : "K_RENVOIS",
-    22 : "K_AKM',
+    22 : "K_AKM",
     23 : "K_VDS"
 }
 
