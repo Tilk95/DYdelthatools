@@ -57,7 +57,9 @@ dico_empreinte_principale = {
     18 : "K_VOIE_SORTIE",
     19 : "K_SIGNE_CONV",
     20 : "K_FH",
-    21 : "K_RENVOIS"
+    21 : "K_RENVOIS",
+    22 : "K_AKM',
+    23 : "K_VDS"
 }
 
 #  MASQUE SIGNES CONVENtIONNELS ( 32 BITS ) 
