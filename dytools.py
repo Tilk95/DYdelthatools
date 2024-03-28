@@ -59,7 +59,7 @@ dico_empreinte_principale = {
     20 : "K_FH",
     21 : "K_RENVOIS",
     22 : "K_AKM",
-    23 : "K_VDS"
+    23 : "K_VDS" 
 }
 
 #  MASQUE SIGNES CONVENtIONNELS ( 32 BITS ) 
