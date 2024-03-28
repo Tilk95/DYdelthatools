@@ -3,7 +3,7 @@ import dytools as dyt
 
 st.set_page_config(
     page_title="Empreintes",
-    page_icon="👋",
+    page_icon="👋", 
 )
 
 st.write("## Consultation des Empreintes BINAIRES!")
